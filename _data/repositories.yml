@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - juletx
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - hitz-zentroa/latxa
+  - juletx/BertaQA
+  - juletx/self-translate
+  - juletx/spatial-reasoning
+  - juletx/academic-website
+  - EleutherAI/lm-evaluation-harness

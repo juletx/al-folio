@@ -198,6 +198,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/writing-systems/";
             },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/al-folio/assets/rendercv/rendercv_output/Julen_Etxaniz_CV.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',

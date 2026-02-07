@@ -4,9 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - hitz-zentroa/latxa
-  - juletx/BertaQA
   - juletx/self-translate
   - juletx/spatial-reasoning
+  - hitz-zentroa/latxa
+  - hitz-zentroa/latxa-instruct
   - juletx/academic-website
-  - EleutherAI/lm-evaluation-harness
+  - juletx/BertaQA

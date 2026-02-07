@@ -5,12 +5,12 @@ title: repositories
 description:
 nav: true
 nav_order: 4
-published: false
+published: true
 ---
 
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+## GitHub Stats
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -38,11 +38,31 @@ published: false
 
 {% if site.data.repositories.github_repos %}
 
-## GitHub Repositories
+## Featured Repositories
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
+
+---
+
 {% endif %}
+
+## GitHub Repositories
+
+<p class="text-muted">Sorted by stars. Excludes forks and archived repositories.</p>
+
+{% assign sort_order = 'stargazers_count' %}
+{% assign filtered_repos = site.github.public_repositories | where: 'archived', false | where: 'fork', false | sort: sort_order | reverse %}
+
+{% assign featured_repos = site.data.repositories.github_repos %}
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in filtered_repos %}
+    {% unless featured_repos contains repo.full_name %}
+      {% include repository/repo.liquid repository=repo.full_name %}
+    {% endunless %}
+  {% endfor %}
+</div>

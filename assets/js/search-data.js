@@ -7,35 +7,35 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "A collection of research and development projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/repositories/";
+            window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "news-started-phd-in-language-analysis-and-processing-at-hitz-center-ixa-group-ehu-working-on-improving-language-models-for-low-resource-languages",
           title: '🎓 Started PhD in Language Analysis and Processing at HiTZ Center IXA Group...',
@@ -53,163 +53,163 @@ ninja.data = [{
           title: 'Academic Website',
           description: "Academic personal website in three languages built with Hugo and Wowchemy",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/academic-website/";
+              window.location.href = "/projects/academic-website/";
             },},{id: "projects-antxieta-arkeologi-taldea",
           title: 'Antxieta Arkeologi Taldea',
           description: "Website for archaeological research group in Gipuzkoa",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/antxieta-arkeologi-taldea/";
+              window.location.href = "/projects/antxieta-arkeologi-taldea/";
             },},{id: "projects-battleshipfeatureide",
           title: 'BattleshipFeatureIDE',
           description: "Java Battleship game as a Software Product Line",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/battleship-feature-ide/";
+              window.location.href = "/projects/battleship-feature-ide/";
             },},{id: "projects-community-detection",
           title: 'Community Detection',
           description: "Detecting communities using metaheuristics on NIPS authors network",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/community-detection/";
+              window.location.href = "/projects/community-detection/";
             },},{id: "projects-computational-syntax",
           title: 'Computational Syntax',
           description: "Computational Syntax course materials",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/computational-syntax/";
+              window.location.href = "/projects/computational-syntax/";
             },},{id: "projects-corpus-linguistics",
           title: 'Corpus Linguistics',
           description: "Corpus Linguistics course materials",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/corpus-linguistics/";
+              window.location.href = "/projects/corpus-linguistics/";
             },},{id: "projects-deep-learning-for-nlp",
           title: 'Deep Learning for NLP',
           description: "Course materials for Deep Learning applied to Natural Language Processing",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/deep-learning-nlp/";
+              window.location.href = "/projects/deep-learning-nlp/";
             },},{id: "projects-dialbot",
           title: 'Dialbot',
           description: "End-to-end dialogue system based on deep learning",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/dialbot/";
+              window.location.href = "/projects/dialbot/";
             },},{id: "projects-egunean-behin-vqa",
           title: 'Egunean Behin VQA',
           description: "Visual Question Answering dataset based on Basque quiz game",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/egunean-behin-vqa/";
+              window.location.href = "/projects/egunean-behin-vqa/";
             },},{id: "projects-github-website",
           title: 'GitHub Website',
           description: "Personal GitHub Pages website with repositories and topics",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/github-website/";
+              window.location.href = "/projects/github-website/";
             },},{id: "projects-hackerrank",
           title: 'HackerRank',
           description: "Solutions for programming challenges in multiple languages",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/hackerrank/";
+              window.location.href = "/projects/hackerrank/";
             },},{id: "projects-hyperpartisan-news-analysis",
           title: 'Hyperpartisan News Analysis',
           description: "Hyperpartisan News Analysis with Scattertext",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/hyperpartisan-news-analysis/";
+              window.location.href = "/projects/hyperpartisan-news-analysis/";
             },},{id: "projects-image-caption-generation",
           title: 'Image Caption Generation',
           description: "Automatic image caption generation using CNN and LSTM",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/image-caption-generation/";
+              window.location.href = "/projects/image-caption-generation/";
             },},{id: "projects-100iragarki",
           title: '100Iragarki',
           description: "Digital showcase for Network Services and Applications course",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/iragarkiak/";
+              window.location.href = "/projects/iragarkiak/";
             },},{id: "projects-mfds",
           title: 'MFDS',
           description: "Formal Methods for Software Development",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/mfds/";
+              window.location.href = "/projects/mfds/";
             },},{id: "projects-ml-exercises",
           title: 'ML Exercises',
           description: "Machine Learning exercises with R",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/ml-exercises/";
+              window.location.href = "/projects/ml-exercises/";
             },},{id: "projects-mlnn-labs",
           title: 'MLNN Labs',
           description: "Machine Learning and Neural Networks laboratory exercises",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/mlnn-labs/";
+              window.location.href = "/projects/mlnn-labs/";
             },},{id: "projects-mlnn-lectures",
           title: 'MLNN Lectures',
           description: "Machine Learning and Neural Networks lecture notes",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/mlnn-lectures/";
+              window.location.href = "/projects/mlnn-lectures/";
             },},{id: "projects-multilingual-question-answering",
           title: 'Multilingual Question Answering',
           description: "Zero-shot and translation experiments on multilingual QA datasets",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/multilingual-qa/";
+              window.location.href = "/projects/multilingual-qa/";
             },},{id: "projects-nlp-applications-ii",
           title: 'NLP Applications II',
           description: "Information Extraction, QA, Recommender and Conversational Systems",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/nlp-applications-2/";
+              window.location.href = "/projects/nlp-applications-2/";
             },},{id: "projects-nlp-applications-i",
           title: 'NLP Applications I',
           description: "Text Classification, Sequence Labelling, Opinion Mining and QA",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/nlp-applications/";
+              window.location.href = "/projects/nlp-applications/";
             },},{id: "projects-prometa-io-system",
           title: 'ProMeta IO-System',
           description: "ProMeta project content management system",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/prometa-io-system/";
+              window.location.href = "/projects/prometa-io-system/";
             },},{id: "projects-prometa-modeleditor",
           title: 'ProMeta ModelEditor',
           description: "ProMeta project model editor using Model-Driven Engineering",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/prometa-model-editor/";
+              window.location.href = "/projects/prometa-model-editor/";
             },},{id: "projects-prometa",
           title: 'ProMeta',
           description: "Software development process definition system based on metamodels",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/prometa/";
+              window.location.href = "/projects/prometa/";
             },},{id: "projects-quiz",
           title: 'Quiz',
           description: "Question game for Web Systems course",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/quiz/";
+              window.location.href = "/projects/quiz/";
             },},{id: "projects-shape-classification",
           title: 'Shape Classification',
           description: "Comparing classification algorithms on shape datasets",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/shape-classification/";
+              window.location.href = "/projects/shape-classification/";
             },},{id: "projects-spatial-reasoning",
           title: 'Spatial Reasoning',
           description: "Grounding Language Models for Compositional and Spatial Reasoning",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/spatial-reasoning/";
+              window.location.href = "/projects/spatial-reasoning/";
             },},{id: "projects-spiking-neural-network",
           title: 'Spiking Neural Network',
           description: "Simulating the Izhikevich spiking neuron model with Brian2",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/spiking-neural-network/";
+              window.location.href = "/projects/spiking-neural-network/";
             },},{id: "projects-twitter-sentiment",
           title: 'Twitter Sentiment',
           description: "Twitter Sentiment and Emotion Analysis",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/twitter-sentiment/";
+              window.location.href = "/projects/twitter-sentiment/";
             },},{id: "projects-web-security-analysis",
           title: 'Web Security Analysis',
           description: "Improving web security using Hardenize and Security Headers",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/web-security/";
+              window.location.href = "/projects/web-security/";
             },},{id: "projects-writing-systems",
           title: 'Writing Systems',
           description: "Comparing writing systems with multilingual G2P and P2G conversion",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/writing-systems/";
+              window.location.href = "/projects/writing-systems/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/al-folio/assets/rendercv/rendercv_output/Julen_Etxaniz_CV.pdf", "_blank");
+          window.open("/assets/rendercv/rendercv_output/Julen_Etxaniz_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -272,7 +272,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/al-folio/feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
